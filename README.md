@@ -23,7 +23,7 @@ https://mosquitto.org/download/
 
 O Trabalho foi totalmente feito no Sistema Operacional Windows, com isso possuindo
 algumas limitações. Inicialmente as células de carga é responsavel por realizar a medida
-da sua grandeza, o valor da sua ressitencia é convertido por um conversor A/D, o Módulo
+da sua grandeza, o valor da sua ressistência é convertido por um conversor A/D, o Módulo
 HX711, e o sinal resulante deste conversor é enviado para o NodeMCU. O Microcontrolador
 NodeMCU recebe toda a Programação necessária para realizar a interface entre os dados
 coletados e o computador ou notebook. No InfluxBD, possui um database para armazenar
