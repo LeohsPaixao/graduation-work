@@ -1,6 +1,8 @@
 # TG
 Repositório de Trabalho de Graduação.
 
+Integração de Sensores de Carga e Tecnologia Iot.
+
 Componentes utilizados:
 - 2x Célula de Carga Meia Ponte Wheatstone;
 - 1x Módulo Semiconductor HX711;
@@ -19,11 +21,10 @@ https://grafana.com/grafana/download?platform=windows
 - Broker Mosquistto.
 https://mosquitto.org/download/
 
-O Trabalho foi feito totalmente feito no Sistema Operacional Windows, com isso possuindo
+O Trabalho foi totalmente feito no Sistema Operacional Windows, com isso possuindo
 algumas limitações. Inicialmente as células de carga é responsavel por realizar a medida
 da sua grandeza, o valor da sua ressitencia é convertido por um conversor A/D, o Módulo
 HX711, e o sinal resulante deste conversor é enviado para o NodeMCU. O Microcontrolador
 NodeMCU recebe toda a Programação necessária para realizar a interface entre os dados
 coletados e o computador ou notebook. No InfluxBD, possui um database para armazenar
 os dados coletados e a Ferramenta Grafana é utilizado para a exibição dos Dados.
-  
