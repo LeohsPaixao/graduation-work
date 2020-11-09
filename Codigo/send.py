@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 from random import randint
 from time import sleep
 
-broker_url = "192.168.1.5"
+broker_url = "localhost"
 broker_port = 1883
 
 client = mqtt.Client()
