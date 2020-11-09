@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 from connectsave import *
 
-broker_url = "192.168.1.5"
+broker_url = "localhost"
 broker_port = 1883
 
 # def clean(dirty_message):
