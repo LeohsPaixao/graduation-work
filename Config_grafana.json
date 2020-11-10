@@ -120,7 +120,7 @@
           "fill": true,
           "line": true,
           "op": "lt",
-          "value": 500,
+          "value": 5000,
           "yaxis": "left"
         },
         {
@@ -128,7 +128,7 @@
           "fill": true,
           "line": true,
           "op": "lt",
-          "value": 250,
+          "value": 1500,
           "yaxis": "left"
         },
         {
@@ -136,7 +136,7 @@
           "fill": true,
           "line": true,
           "op": "lt",
-          "value": 50,
+          "value": 250,
           "yaxis": "left"
         }
       ],
@@ -165,7 +165,7 @@
           "format": "none",
           "label": "",
           "logBase": 1,
-          "max": "500",
+          "max": "5000",
           "min": "0",
           "show": true
         },
@@ -198,11 +198,11 @@
               },
               {
                 "color": "yellow",
-                "value": 50
+                "value": 250
               },
               {
                 "color": "green",
-                "value": 250
+                "value": 1500
               }
             ]
           },
@@ -400,7 +400,7 @@
           "fill": true,
           "line": true,
           "op": "lt",
-          "value": 50,
+          "value": 100,
           "yaxis": "left"
         },
         {
@@ -408,7 +408,7 @@
           "fill": true,
           "line": true,
           "op": "lt",
-          "value": 25,
+          "value": 30,
           "yaxis": "left"
         },
         {
@@ -444,7 +444,7 @@
           "format": "short",
           "label": null,
           "logBase": 1,
-          "max": "50",
+          "max": "100",
           "min": "0",
           "show": true
         },
@@ -482,7 +482,7 @@
               },
               {
                 "color": "green",
-                "value": 25
+                "value": 30
               }
             ]
           },
