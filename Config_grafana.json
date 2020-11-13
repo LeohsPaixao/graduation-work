@@ -7,7 +7,9 @@
         "enable": true,
         "hide": true,
         "iconColor": "rgba(0, 211, 255, 1)",
-        "name": "Annotations & Alerts",
+        "limit": 100,
+        "name": "Alerts",
+        "showIn": 0,
         "type": "dashboard"
       }
     ]
@@ -15,7 +17,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 2,
+  "id": 1,
   "links": [],
   "panels": [
     {
@@ -34,12 +36,13 @@
       "fillGradient": 0,
       "gridPos": {
         "h": 8,
-        "w": 12,
+        "w": 16,
         "x": 0,
         "y": 0
       },
       "hiddenSeries": false,
       "id": 8,
+      "interval": "5s",
       "legend": {
         "alignAsTable": false,
         "avg": false,
@@ -225,7 +228,7 @@
       "gridPos": {
         "h": 8,
         "w": 8,
-        "x": 12,
+        "x": 16,
         "y": 0
       },
       "id": 4,
@@ -327,8 +330,8 @@
       "fill": 0,
       "fillGradient": 0,
       "gridPos": {
-        "h": 8,
-        "w": 12,
+        "h": 7,
+        "w": 16,
         "x": 0,
         "y": 8
       },
@@ -513,9 +516,9 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 8,
+        "h": 7,
         "w": 8,
-        "x": 12,
+        "x": 16,
         "y": 8
       },
       "id": 2,
@@ -597,7 +600,9 @@
     "to": "now"
   },
   "timepicker": {
+    "nowDelay": "5m",
     "refresh_intervals": [
+      "5s",
       "10s",
       "30s",
       "1m",
@@ -609,8 +614,8 @@
       "1d"
     ]
   },
-  "timezone": "",
-  "title": "Telegraf",
-  "uid": "oMP7a1cMz",
-  "version": 28
+  "timezone": "America/Sao_Paulo",
+  "title": "Medição",
+  "uid": "f5QHgEWGz",
+  "version": 7
 }
