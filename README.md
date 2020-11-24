@@ -21,10 +21,9 @@ https://grafana.com/grafana/download?platform=windows
 - Broker Mosquistto.
 https://mosquitto.org/download/
 
-O Trabalho foi totalmente feito no Sistema Operacional Windows, com isso possuindo
-algumas limitações. Inicialmente as células de carga é responsavel por realizar a medida
-da sua grandeza, o valor da sua ressistência é convertido por um conversor A/D, o Módulo
-HX711, e o sinal resulante deste conversor é enviado para o NodeMCU. O Microcontrolador
-NodeMCU recebe toda a Programação necessária para realizar a interface entre os dados
-coletados e o computador ou notebook. No InfluxBD, possui um database para armazenar
-os dados coletados e a Ferramenta Grafana é utilizado para a exibição dos Dados.
+O objetivo deste trabalho foi desenvolver um sistema para monitorar os materiais de uma linha de produção usando 
+tecnologia IoT.Atualmente o processo de monitoramento e reposição de peças depende de serviços manuais. Para isso
+foram utilizados células de carga, microcontrolador, Broker MQTT, Telegraf, InfluxDB e Grafana. Foi implementado
+em um workflow que tinha a função de coletar os dados do sensor, armazenar em um banco de dados e visualizar na 
+forma de peso e quantidade. Com essas solução desenvolvida espera contribuir na área de logística, na reposição e
+controle dos materiais.
