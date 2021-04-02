@@ -24,4 +24,4 @@ controle dos materiais.
 
 ## Documentação
 [INTEGRAÇÃO DE SENSORES DE CARGA E TECNOLOGIA IOT EM 
-ARMAZENS INDUSTRIAIS]https://www.fateccruzeiro.edu.br/projetos/acervo/82aa4b0af34c2313a562076992e50aa3.pdf
+ARMAZENS INDUSTRIAIS](https://www.fateccruzeiro.edu.br/projetos/acervo/82aa4b0af34c2313a562076992e50aa3.pdf)
