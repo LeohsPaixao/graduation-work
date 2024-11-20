@@ -1,6 +1,6 @@
 from influxdb import InfluxDBClient
 
-def save_measurement(weight, amount, host='localhost', port=8086, database='example'):
+def save_measurement(weight, amount, host='localhost', port=8086, database='medicao'):
     """
     Salva uma medição no banco de dados InfluxDB.
     """
