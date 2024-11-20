@@ -77,7 +77,8 @@ F -->|Consulta| G[Grafana]
 1. **Instalar os softwares necessários**:
    ```bash
    sudo apt update
-   sudo apt install -y mosquitto influxdb grafana telegraf
+   sudo apt install -y mosquitto influxdb telegraf
+   snap install grafana
    ```
 2. **Configurar o InfluxDB**:
    - Criar banco de dados:
